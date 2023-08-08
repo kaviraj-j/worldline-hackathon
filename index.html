@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worldline Hackathon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .pink-button {
+        background-color: #FF6666;
+      border-color: #FFC0CB;
+    }
+    .rounded-symbol {
+      border-radius: 50%;
+      background-color: #FF6666;
+      color: white;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem;
+    }
+
+    .subscribe-input {
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+    }
+
+    .subscribe-button {
+      background-color: #FF6666;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+  <body>
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#"><span style="font-weight: bold;">DENI</span></a>
+              </a>
+          </a>
+          <div class="navbar-collapse justify-content-center" id="navbarNavCenter">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-collapse justify-content-end" id="navbarNavRight">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-phone"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-search"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="body-cream.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary pink-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-light text-center py-4">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="rounded-symbol mr-2"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="rounded-symbol mr-2"><i class="fas fa-envelope"></i></div>
+                <div class="rounded-symbol"><i class="fas fa-phone"></i></div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="input-group">
+                <input type="text" class="form-control subscribe-input" placeholder="Enter your email">
+                <button class="btn subscribe-button">Subscribe</button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <i class="fab fa-facebook rounded-symbol mr-2"></i>
+                <i class="fab fa-twitter rounded-symbol mr-2"></i>
+                <i class="fab fa-linkedin rounded-symbol mr-2"></i>
+                <i class="fab fa-instagram rounded-symbol mr-2"></i>
+                <i class="fab fa-youtube rounded-symbol"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <h6>PRODUCT</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, lectus a condimentum sagittis.</p>
+            </div>
+            <div class="col">
+              <h6>SHOP</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, lectus a condimentum sagittis.</p>
+            </div>
+            <div class="col">
+              <h6>COMPANY</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, lectus a condimentum sagittis.</p>
+            </div>
+            <div class="col">
+              <h6>MY ACCOUNT</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum, lectus a condimentum sagittis.</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <p>&copy; 2023 Kaviraj All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
