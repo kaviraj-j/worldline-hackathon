@@ -3,5 +3,5 @@
 
 ### The website is created using HTML, CSS and is responsive and can be viewed on any device.
 ### It is pushed to docker hub also.
-![page](page.png "Page")
+![page](page.jpg "Page")
 
